@@ -59,6 +59,7 @@
 
 - **[use REACT library]**
 - **[Single page Application]**
+- **[Add calculator UI ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
