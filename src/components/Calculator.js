@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const TableCalculator = () => (
   <div className="calculator">
     <span className="display-screen">0</span>
