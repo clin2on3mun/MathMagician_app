@@ -59,7 +59,7 @@
 
 - **[use REACT library]**
 - **[Single page Application]**
-- **[Add calculator UI ]**
+- **[Add calculator UI  and able to perform arthimetic operation]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
