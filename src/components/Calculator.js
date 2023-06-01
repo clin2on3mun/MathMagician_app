@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import Quotes from './quotes';
 
 const TableCalculator = () => {
   const [total, setTotal] = useState(null);
@@ -44,8 +45,10 @@ const TableCalculator = () => {
 };
 const Calculator = () => (
 
-  <div className="calculator">
-    <TableCalculator />
+  <div className="container">
+    <div className="calculator"><TableCalculator /></div>
+    <Quotes />
   </div>
+
 );
 export default Calculator;

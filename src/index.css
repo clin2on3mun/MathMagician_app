@@ -9,11 +9,26 @@
   --base-color: #f58d06;
 }
 
+.container {
+  display: flex;
+  margin: 10% auto;
+  width: 70%;
+  gap: 8px;
+}
+
 .calculator {
-  width: 30%;
+  width: 25rem;
   display: grid;
   grid-template-columns: 1fr  1fr 1fr 1fr;
-  margin: 10% auto;
+}
+
+.display {
+  width: 30rem;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px #888;
+  align-self: flex-start;
+  padding: 2%;
 }
 
 .btn {
@@ -40,4 +55,16 @@
 
 .grey {
   background-color: #e3e3e3;
+}
+
+.quote {
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+}
+
+.author {
+  float: right;
+  font-family: cursive;
+  font-weight: bold;
 }
