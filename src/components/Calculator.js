@@ -44,8 +44,7 @@ const TableCalculator = () => {
 };
 const Calculator = () => (
 
-  <div className="calculator">
-    <TableCalculator />
-  </div>
+  <div className="calculator"><TableCalculator /></div>
+
 );
 export default Calculator;

@@ -60,6 +60,8 @@
 - **[use REACT library]**
 - **[Single page Application]**
 - **[Add calculator UI  and able to perform arthimetic operation]**
+- **[Add calculator UI  and able to perform arthimetic operation]**
+- **[Add quotes to the project using API ninjas quotes API]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
