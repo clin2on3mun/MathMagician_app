@@ -26,21 +26,21 @@ const Quotes = () => {
     fetchData();
   }, [setData, setLoading]);
 
-  if (showerror)<div>something went wrong!</div>;
+  if (showerror) return <div className="notification">something went wrong!</div>;
 
-  if (loading)<div>loading contents .........</div>;
+  if (loading) return <div className="notification">loading contents .........</div>;
 
   return (
-    <div className="display">
+    <>
       {data.map((quote) => (
-        <>
-          <p className="quote" key={quote.category}>
+        <div className="display" key={quote.category}>
+          <p className="quote">
             {quote.quote}
           </p>
           <span className="author">{quote.author}</span>
-        </>
+        </div>
       ))}
-    </div>
+    </>
   );
 };
 
