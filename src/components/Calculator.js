@@ -21,25 +21,25 @@ const Calculator = () => {
         {operation}
         {next}
       </div>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">AC</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">+/-</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">%</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn orange">÷</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">7</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">8</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">9</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn orange">x</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">4</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">5</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">6</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn orange">-</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">1</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">2</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">3</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn orange">+</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn big grey">0</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn grey">.</Keypad>
-      <Keypad typeBtn="button" onclickBtn={clickBtn} value="btn orange">=</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">AC</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">+/-</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">%</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">÷</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">7</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">8</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">9</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">x</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">4</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">5</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">6</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">-</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">1</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">2</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">3</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">+</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn big grey">0</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">.</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">=</Keypad>
     </div>
   );
 };
