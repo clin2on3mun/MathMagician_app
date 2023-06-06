@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import Keypad from './Keypad';
 
-const TableCalculator = () => {
+const Calculator = () => {
   const [total, setTotal] = useState(null);
   const [next, setNext] = useState(null);
   const [operation, setOperation] = useState(null);
@@ -14,37 +15,33 @@ const TableCalculator = () => {
   };
 
   return (
-    <>
+    <div className="calculator">
       <div className="display-screen">
         {total}
         {operation}
         {next}
       </div>
-      <button type="button" onClick={clickBtn} className="btn grey">AC</button>
-      <button type="button" onClick={clickBtn} className="btn grey">+/-</button>
-      <button type="button" onClick={clickBtn} className="btn grey">%</button>
-      <button type="button" onClick={clickBtn} className="btn orange">÷</button>
-      <button type="button" onClick={clickBtn} className="btn grey">7</button>
-      <button type="button" onClick={clickBtn} className="btn grey">8</button>
-      <button type="button" onClick={clickBtn} className="btn grey">9</button>
-      <button type="button" onClick={clickBtn} className="btn orange">x</button>
-      <button type="button" onClick={clickBtn} className="btn grey">4</button>
-      <button type="button" onClick={clickBtn} className="btn grey">5</button>
-      <button type="button" onClick={clickBtn} className="btn grey">6</button>
-      <button type="button" onClick={clickBtn} className="btn orange">-</button>
-      <button type="button" onClick={clickBtn} className="btn grey">1</button>
-      <button type="button" onClick={clickBtn} className="btn grey">2</button>
-      <button type="button" onClick={clickBtn} className="btn grey">3</button>
-      <button type="button" onClick={clickBtn} className="btn orange">+</button>
-      <button type="button" onClick={clickBtn} className="btn big grey">0</button>
-      <button type="button" onClick={clickBtn} className="btn grey">.</button>
-      <button type="button" onClick={clickBtn} className="btn orange">=</button>
-    </>
+      <Keypad onclickBtn={clickBtn} value="btn grey">AC</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">+/-</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">%</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">÷</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">7</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">8</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">9</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">x</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">4</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">5</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">6</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">-</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">1</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">2</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">3</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">+</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn big grey">0</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn grey">.</Keypad>
+      <Keypad onclickBtn={clickBtn} value="btn orange">=</Keypad>
+    </div>
   );
 };
-const Calculator = () => (
 
-  <div className="calculator"><TableCalculator /></div>
-
-);
 export default Calculator;
