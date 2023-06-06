@@ -53,12 +53,23 @@ a:hover {
   text-decoration: underline;
 }
 
+.calc-container {
+  display: flex;
+  padding-top: 4%;
+  justify-content: space-between;
+}
+
+.calculator-container {
+  margin-right: 4%;
+  padding: 5%;
+}
+
 .calculator {
-  width: 25rem;
+  width: 30rem;
   display: grid;
   grid-template-columns: 1fr  1fr 1fr 1fr;
-  margin: 4% auto;
   position: relative;
+  padding-right: 4%;
 }
 
 .display {
@@ -91,7 +102,7 @@ a:hover {
 }
 
 .title {
-  padding: 2% 4% 4% 4%;
+  padding: 0 4%;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
