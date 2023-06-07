@@ -62,6 +62,9 @@
 - **[Add calculator UI  and able to perform arthimetic operation]**
 - **[Add calculator UI  and able to perform arthimetic operation]**
 - **[Add quotes to the project using API ninjas quotes API]**
+- **[Add navigation links to page using Route]**
+- **[Add styles to the webpage]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

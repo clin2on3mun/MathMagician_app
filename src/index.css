@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,17 +13,63 @@
   --base-color: #f58d06;
 }
 
-.container {
+#root {
+  height: 100vh;
+  background-image: linear-gradient(#d0ff00, #fff700);
+}
+
+.header-title {
+  font-family: 'Geologica', sans-serif;
+  color: #fff;
+}
+
+.header {
   display: flex;
-  margin: 10% auto;
-  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 6% 2% 4%;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
   gap: 8px;
 }
 
+li {
+  padding: 2%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.calc-container {
+  display: flex;
+  padding-top: 4%;
+  justify-content: space-between;
+}
+
+.calculator-container {
+  margin-right: 4%;
+  padding: 5%;
+}
+
 .calculator {
-  width: 25rem;
+  width: 30rem;
   display: grid;
   grid-template-columns: 1fr  1fr 1fr 1fr;
+  position: relative;
+  padding-right: 4%;
 }
 
 .display {
@@ -29,6 +79,9 @@
   box-shadow: 5px 10px 8px #888;
   align-self: flex-start;
   padding: 2%;
+  margin: 8% auto;
+  position: relative;
+  background-color: white;
 }
 
 .btn {
@@ -38,6 +91,24 @@
   background-color: #e48304;
   padding: 7%;
   text-align: center;
+}
+
+.home {
+  padding: 2% 0 0 4%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.title {
+  padding: 0 4%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.title-home {
+  font-family: 'Roboto', sans-serif;
 }
 
 .display-screen {
@@ -67,4 +138,10 @@
   float: right;
   font-family: cursive;
   font-weight: bold;
+}
+
+.para {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  width: 50%;
 }
