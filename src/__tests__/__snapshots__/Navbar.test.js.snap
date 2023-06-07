@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component renders correctly 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1
+      class="header-title"
+    >
+      Math Magician App
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quotes"
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
