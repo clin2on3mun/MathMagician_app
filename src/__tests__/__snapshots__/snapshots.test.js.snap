@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components snapshot Calculator snapshot 1`] = `
+<div>
+  <div
+    class="calc-container"
+  >
+    <h2
+      class="title"
+    >
+      Let's do math
+    </h2>
+    <div
+      class="calculator"
+    >
+      <div
+        class="display-screen"
+      />
+      <button
+        class="btn grey"
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        %
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        7
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        8
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        9
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        x
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        4
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        5
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        6
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        -
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn big grey"
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class="btn grey"
+        type="button"
+      >
+        .
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Components snapshot Home snapshot 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <h2
+      class="title-home"
+    >
+      Welcome to our page
+    </h2>
+    <p
+      class="para"
+    >
+      This is my first React project called Math magician designed from scratch, it is a great project it covers different concepts of React.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Components snapshot Quotes snapshot 1`] = `
+<div>
+  <div
+    class="notification"
+  >
+    loading contents .........
+  </div>
+</div>
+`;
