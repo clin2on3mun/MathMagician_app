@@ -75,7 +75,7 @@
 
 
 
-- [Live Demo Link](coming soon .....)
+- [Live Demo Link](https://mathmagicianapp-ombe.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
