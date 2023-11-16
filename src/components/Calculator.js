@@ -14,17 +14,14 @@ const Calculator = () => {
     setNext(result.next);
     setOperation(result.operation);
   };
-
   return (
     <div className="calc-container">
       <Title value="title" title="Let's do math" />
       <div className="calculator">
         <div className="display-screen">
-          {total}
-          {operation}
-          {next}
+          {next || total || 0}
         </div>
-        <Keypad onclickBtn={clickBtn} value="btn grey">AC</Keypad>
+        <Keypad onclickBtn={clickBtn} value="btn grey shine">AC</Keypad>
         <Keypad onclickBtn={clickBtn} value="btn grey">+/-</Keypad>
         <Keypad onclickBtn={clickBtn} value="btn grey">%</Keypad>
         <Keypad onclickBtn={clickBtn} value="btn orange">÷</Keypad>
